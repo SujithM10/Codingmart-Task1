@@ -1,0 +1,53 @@
+
+/* Capsul in zero impact- block */
+.capsul-line{
+    width: 40vw;
+    height: 4px;
+    background-color: #c9d3cf;
+   border-radius: 4px;
+    /* display:inline; */
+
+  }
+  .capsul{
+    margin-top:150px;
+    margin-bottom:150px
+  }
+
+  .capsul-h2{
+    font-size: 17px;
+    width: 50%;
+    margin-left: 25%;
+    /* font-weight: 20px; */
+    margin-bottom: 100px;
+  }
+.line-weeks{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17vh;
+    margin-bottom: 20vh;
+}
+
+.pos {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border: 2px #5e7d65 solid;
+  border-radius: 50%;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  position :absolute;
+  transform: translate(0px, -22px);
+  background-color:#5e7d65;
+  
+  color:white;
+}
+
+.line-text{
+  color:#5e7d65;
+  font-size: 1.5vw;
+}
+
+/* end of Capsul in zero impact */

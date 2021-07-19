@@ -1,0 +1,115 @@
+
+/* start block */
+
+.start {
+    background-image: url("https://www.capsul-in-pro.com/home-compost-capsule/assets/images/landscape-5e8dd7ed8359c16a1d3eb13bfabdf8dd.webp");
+    height: 2000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+/* ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color:#5f8a69;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  font-size: 1.5em;
+} */
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px ){
+  .div-h-homecompost{
+    font-size: 2rem;
+  }
+  
+}
+.nav{
+    position:fixed;
+    top:0;
+    width:100vw;
+    z-index:100;
+}
+
+.start-zeroimapct {
+    width: 100%;
+}
+
+.zero-impact{
+  margin-top: 10%;
+}
+
+.start-discover {
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: 1px solid #5e7d65;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    margin-top: 135px;
+}
+
+.wrapper {
+    position: relative;
+  }
+
+  
+  .start-items{
+      color:#5e7d65;
+      font-size: 14px;
+      font-weight: 700;
+
+  }
+  .start-leaf {
+    position: absolute;
+    right: 30%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    width: 4vw;
+  }
+  /* .start-zi{
+      background-image: url("https://www.capsul-in-pro.com/home-compost-capsule/assets/images/landing/title-6ee0c4c2aff6b22c4be9646c7d7e2428.svg");
+      background-repeat: no-repeat;
+      
+  } */
+
+
+  .start-end-leaf{
+    position: absolute;
+    left: 15%;
+    top: 93%; 
+    transform: translate(-50%, -50%);
+    width: 4vw;
+    opacity: 0.3;
+  }
+
+  .start-contact{
+      color:#5e7d65;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+  }
+
+  .start-dis-leaf{
+    position: absolute;
+    left: 32%;
+    top: 200%; 
+    transform: translate(-50%, -50%);
+    width: 40px;
+  }
+
+/* end of start block */

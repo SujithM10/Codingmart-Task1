@@ -1,0 +1,45 @@
+/* start of specification block */
+
+.specification ul {
+  list-style: none;
+}
+
+.specification ul li::before {
+  content: "\2022";
+  color:#5f8a69;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  font-size: 1.5em;
+}
+.specification{
+    margin-top: 20vh;
+    margin-bottom:30vh;
+}
+
+.specification h1{
+  /* background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,.9) );
+   */
+   color: #5e7d65;
+   background:linear-gradient(#5f8a69,rgba(255,255,255,.9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.specification h4{
+  font-size: 1.1rem;
+  padding-bottom: 3rem;
+  color: #5e7d65;
+}
+.specification ul{
+  padding-left: 15px;
+}
+.specification li{
+  font-size: .9rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+/* end of specification block */

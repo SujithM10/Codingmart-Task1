@@ -1,0 +1,17 @@
+/* start of customizable block */
+.customizable{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+  
+.custom{
+  position: relative;
+  width: 95vw;
+  margin: auto;
+  height: 800px;
+  background-image: url("https://www.capsul-in-pro.com/home-compost-capsule/assets/images/jungle-5f0c1c7c8d69d629f381032b7b3371fb.webp");
+  border-radius: 4rem;
+}
+  /* end of customizable block */

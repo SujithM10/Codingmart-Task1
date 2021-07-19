@@ -1,0 +1,639 @@
+
+/* start block */
+
+.start {
+    background-image: url("https://www.capsul-in-pro.com/home-compost-capsule/assets/images/landscape-5e8dd7ed8359c16a1d3eb13bfabdf8dd.webp");
+    height: 2000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+/* ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color:#5f8a69;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  font-size: 1.5em;
+} */
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px ){
+  .div-h-homecompost{
+    font-size: 2rem;
+  }
+  
+}
+.nav{
+    position:fixed;
+    top:0;
+    width:100vw;
+    z-index:100;
+}
+
+.start-zeroimapct {
+    width: 100%;
+}
+
+.zero-impact{
+  margin-top: 10%;
+}
+
+.start-discover {
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: 1px solid #5e7d65;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    margin-top: 135px;
+}
+
+.wrapper {
+    position: relative;
+  }
+
+  
+  .start-items{
+      color:#5e7d65;
+      font-size: 14px;
+      font-weight: 700;
+
+  }
+  .start-leaf {
+    position: absolute;
+    right: 30%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    width: 4vw;
+  }
+  /* .start-zi{
+      background-image: url("https://www.capsul-in-pro.com/home-compost-capsule/assets/images/landing/title-6ee0c4c2aff6b22c4be9646c7d7e2428.svg");
+      background-repeat: no-repeat;
+      
+  } */
+
+
+  .start-end-leaf{
+    position: absolute;
+    left: 15%;
+    top: 93%; 
+    transform: translate(-50%, -50%);
+    width: 4vw;
+    opacity: 0.3;
+  }
+
+  .start-contact{
+      color:#5e7d65;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+  }
+
+  .start-dis-leaf{
+    position: absolute;
+    left: 32%;
+    top: 200%; 
+    transform: translate(-50%, -50%);
+    width: 40px;
+  }
+
+/* end of start block */
+
+
+/* home compostable capsule block  */
+
+  .div-homecompost{
+    background-image: url("https://www.capsul-in-pro.com/home-compost-capsule/assets/images/fougere-3d0f40292074717c0ed34de4373adc4c.png");
+    height: 1100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+  }
+
+
+  .div-h-homecompost{
+    color:#5e7d65;
+    font-size: xx-large;
+    font-weight: 1000px;
+    /* margin: 0 auto; */
+    margin-top:40px;
+    margin-bottom:40px;
+    
+    opacity: 1;
+  }
+
+  .homecompost-leaf{
+    position: absolute;
+    left: 20%;
+    top: 200%; 
+    transform: translate(-50%, -50%);
+    width: 40px;
+  }
+
+
+  .div-homecompost-text{
+   
+    width: 50%;
+    margin-left: 25%;
+  }
+.div-homecompost-p1{
+    font-size: 22px;
+    line-height: 32px;
+    margin-top:40%;
+}
+  .div-homecompost-p2{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 100px;
+    opacity:0.3;
+    line-height: 32px;
+  }
+
+  .homecompost-text-leaf{
+    position: absolute;
+    left: 80%;
+    top: 100%; 
+    transform: translate(-50%, -50%);
+    width: 40px;
+  }
+
+  /* .homecompost-austria {
+    position: absolute;
+    left: 50%;
+    top: 120%; 
+    transform: translate(-50%, -50%);
+    width: 40px;
+  } */
+  /* end of home compostable capsule */
+
+/* start of hand soil image */
+  .art-image {
+    margin-top: 43%;margin-left: 21%;
+  }
+
+/* end of hand soil image */
+
+
+/* Capsul in zero impact- block */
+  .capsul-line{
+    width: 40vw;
+    height: 4px;
+    background-color: #c9d3cf;
+   border-radius: 4px;
+    /* display:inline; */
+
+  }
+  .capsul{
+    margin-top:150px;
+    margin-bottom:150px
+  }
+
+  .capsul-h2{
+    font-size: 17px;
+    width: 50%;
+    margin-left: 25%;
+    /* font-weight: 20px; */
+    margin-bottom: 100px;
+  }
+.line-weeks{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17vh;
+    margin-bottom: 20vh;
+}
+
+.pos {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border: 2px #5e7d65 solid;
+  border-radius: 50%;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  position :absolute;
+  transform: translate(0px, -22px);
+  background-color:#5e7d65;
+  
+  color:white;
+}
+
+.line-text{
+  color:#5e7d65;
+  font-size: 1.5vw;
+}
+
+/* end of Capsul in zero impact */
+
+/*  start complaince international standards */
+.complaince{
+    margin-bottom: 200px;
+}
+  .capsul-h1{
+    color:#5e7d65;
+    margin-bottom:40px;
+  }
+  .complaince-p{
+    opacity: 0.6;
+}
+  .complaince-strong{
+    font-size: 17px;
+ 
+  }
+
+  /* end of  complaince international standards */
+
+
+  /* start of biobased block */
+  .biobased{
+    background-image: url("https://www.capsul-in-pro.com/home-compost-capsule/assets/images/forest-210a8bc5d0dbe2b76af64878b6cddf38.webp");
+    background-repeat: no-repeat;
+    min-height: 1600px;
+    background-size: cover;
+    position:relative;
+  }
+  
+  .bio{
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+  }
+  
+  .bio h3{
+    font-size: 6.25rem;
+    color: #c3c9af;
+  }
+  /* @media (max-width: 767px) {
+    .bio h3 {
+      font-size: 3.5rem;
+    }
+    .bio h1 {
+      font-size: 14vw;
+    }
+  } */
+  
+  .bio h1{
+    font-size: 16vw;
+    background: linear-gradient(rgba(36, 61, 59, 0.42), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .bio-content{
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    font-size: 1rem;
+    font-weight: 300;
+    color: #E2E7E0;
+  }
+  
+  .bio-content p {
+    text-align: justify;
+    text-align-last: center;
+    font-size: 1.2rem;
+    font-weight:400;
+    opacity: 0.8;
+    width: 70vw;
+  }
+  
+  .biobased-img{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    width: 100px;
+    height: 55px;
+  }
+/* end of biobased block */
+
+
+
+
+/* full oxygen protection block */
+  .point {
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    border: 2px #5e7d65 solid;
+    border-radius: 50%;
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+
+.process{
+    margin-top: 80px; 
+    margin-bottom:10vh;
+}
+
+.process-formula{
+    margin-top: 20vh;
+    margin-bottom:30vh;
+}
+  
+.process-title{
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+.process-title h5{
+margin-top: .2rem;}
+.process-h{
+    
+    color:#5e7d65;
+}
+
+.process-formula li{
+    font-size: 24px;
+}
+
+/* full oxygen protection block */
+
+.custom{
+  position: relative;
+  width: 95vw;
+  margin: auto;
+  height: 800px;
+  background-image: url("https://www.capsul-in-pro.com/home-compost-capsule/assets/images/jungle-5f0c1c7c8d69d629f381032b7b3371fb.webp");
+  border-radius: 4rem;
+}
+
+
+/* .coffee-section{
+  position: relative;
+  min-height: 100vh;
+}
+.coffee{
+  text-align: center;
+  position: relative;
+
+}
+.coffee-seed img{
+  width: 86%;
+  position: absolute;
+  right: 4%;
+  transform: translateX(-4%);
+}
+
+.coffee-img img{
+  width: 50%;
+  position: absolute;
+  top: 500px;
+  transform: translateY(-500px);
+  right: 10%;
+  transform: translateX(-10%);
+} */
+
+/* start of coffee block */
+.coffee{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+
+}
+.coffeeseed-img{
+
+  width: 86vw;
+  margin: auto;
+}
+.coffee-img{
+  width: 50%;
+  position: relative;
+  left: 12%;
+  margin-top: -280px;
+}
+
+.coffee-contents h1{
+  display: inline-block;
+  position: relative;
+  bottom: 180px; 
+  width: 20%;
+  left: 12%;
+  font-size: 4rem;
+  color: #5e7d65; 
+}
+
+.coffee-para{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 40%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  bottom: 240px;
+  left: 40%;
+}
+
+.coffee-para p{
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 1024px ){
+
+  .coffee{
+    text-align: center;
+  }
+
+  .coffeeseed-img{
+    width: 100%;
+  }
+
+  .coffee-img{
+    left: 0%;
+    margin-top: -150px;
+  }
+
+  .coffee-contents h1{
+    padding: 3rem 0;
+    display: block;
+    position: static;
+    font-size: 2rem;
+    text-align: left;    
+    width: 25%;
+    margin: auto;
+  }
+  .coffee-para{
+    position: static;
+    grid-template-columns: 1fr;
+    display: grid;
+    align-items: center;
+    margin: auto;
+  }
+
+  .coffee-para p{
+    padding: 2rem;
+  }
+}
+
+
+/* end  of coffee block */
+
+/* start of customizable block */
+.customizable{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+/* end of customizable block */
+
+
+
+
+
+
+
+
+/* start of specification block */
+
+
+.specification{
+    margin-top: 20vh;
+    margin-bottom:30vh;
+}
+
+.specification h1{
+  /* background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,.9) );
+   */
+   color: #5e7d65;
+   background:linear-gradient(#5f8a69,rgba(255,255,255,.9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.specification h4{
+  font-size: 1.1rem;
+  padding-bottom: 3rem;
+  color: #5e7d65;
+}
+.specification ul{
+  padding-left: 15px;
+}
+.specification li{
+  font-size: .9rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+/* end of specification block */
+
+/* start of foot block */
+.foot{
+  background-image: url("https://www.capsul-in-pro.com/home-compost-capsule/assets/images/footer-42b76fa1e1d7518dd1c17a6c9a546c73.webp");
+
+}
+
+.footer {
+    width: 90vw;
+    margin: auto;
+    height: 800px;
+    background-repeat: no-repeat;
+
+    padding-top: 230px;
+    padding-bottom: 160px;
+    position: relative;
+
+    color: #fff;
+    /* text-align:center; */
+}
+
+.footer h4{
+  color: #c3c9af;
+  font-size: 18px;
+}
+
+.con-mail{
+  font-size: 3rem;
+  background: linear-gradient(to right, rgba(255,255,255,.9), rgba(255,255,255,0.3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.foot-bottom{
+  position: absolute;
+  bottom: 1rem;
+}
+
+
+/* end of foot block */
+
+
+/* .bio {
+      position:absolute;
+    font-weight: 700;
+    font-size: 18vw;
+    letter-spacing: -0.03em;
+    color: #fff;
+    background: linear-gradient(rgba(36, 61, 59, 0.42), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: auto;
+} */
+
+
+
+/* .bio{
+    width:100%;
+    height:800px;
+    position:relative;
+    background-image: url("https://www.capsul-in-pro.com/home-compost-capsule/assets/images/forest-210a8bc5d0dbe2b76af64878b6cddf38.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+
+
+
+/* animation keyframes */
+
+.anim {
+  opacity: 0;
+}
+.line {
+  /* text-align: right; */
+  animation: left_to_right 7s ease;
+}
+
+@keyframes f-anim {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to  {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes left_to_right {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 40vw;
+  }
+}

@@ -1,0 +1,65 @@
+/* home compostable capsule block  */
+
+.div-homecompost{
+    background-image: url("https://www.capsul-in-pro.com/home-compost-capsule/assets/images/fougere-3d0f40292074717c0ed34de4373adc4c.png");
+    height: 1100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+  }
+
+
+  .div-h-homecompost{
+    color:#5e7d65;
+    font-size: xx-large;
+    font-weight: 1000px;
+    /* margin: 0 auto; */
+    margin-top:40px;
+    margin-bottom:40px;
+    
+    opacity: 1;
+  }
+
+  .homecompost-leaf{
+    position: absolute;
+    left: 20%;
+    top: 200%; 
+    transform: translate(-50%, -50%);
+    width: 40px;
+  }
+
+
+  .div-homecompost-text{
+   
+    width: 50%;
+    margin-left: 25%;
+  }
+.div-homecompost-p1{
+    font-size: 22px;
+    line-height: 32px;
+    margin-top:40%;
+}
+  .div-homecompost-p2{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 100px;
+    opacity:0.3;
+    line-height: 32px;
+  }
+
+  .homecompost-text-leaf{
+    position: absolute;
+    left: 80%;
+    top: 100%; 
+    transform: translate(-50%, -50%);
+    width: 40px;
+  }
+
+  /* .homecompost-austria {
+    position: absolute;
+    left: 50%;
+    top: 120%; 
+    transform: translate(-50%, -50%);
+    width: 40px;
+  } */
+  /* end of home compostable capsule */

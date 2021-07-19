@@ -1,0 +1,33 @@
+/*  start complaince international standards */
+.complaince{
+    margin-bottom: 200px;
+}
+  .capsul-h1{
+    color:#5e7d65;
+    margin-bottom:40px;
+  }
+  .complaince-p{
+    opacity: 0.6;
+}
+  .complaince-strong{
+    font-size: 17px;
+ 
+  }
+
+  /* .complaince ul {
+    list-style: none;
+  }
+  
+  .complaince ul li::before {
+    content: "\2022";
+    color:#5f8a69;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    font-size: 1.5em;
+  } */
+
+  
+
+  /* end of  complaince international standards */

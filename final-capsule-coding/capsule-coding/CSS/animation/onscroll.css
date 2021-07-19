@@ -1,0 +1,31 @@
+/* animation keyframes */
+
+.anim {
+    opacity: 0;
+  }
+  .line {
+    /* text-align: right; */
+    animation: left_to_right 7s ease;
+  }
+  
+  @keyframes f-anim {
+    from {
+      transform: translateY(200px);
+      opacity: 0;
+    }
+    to  {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  @keyframes left_to_right {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: 40vw;
+    }
+  }

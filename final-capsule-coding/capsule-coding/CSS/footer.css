@@ -1,0 +1,44 @@
+/* start of foot block */
+.foot{
+    background-image: url("https://www.capsul-in-pro.com/home-compost-capsule/assets/images/footer-42b76fa1e1d7518dd1c17a6c9a546c73.webp");
+  
+  }
+  
+
+  .footer {
+      width: 90vw;
+      margin: auto;
+      height: 800px;
+      background-repeat: no-repeat;
+  
+      padding-top: 230px;
+      padding-bottom: 160px;
+      position: relative;
+  
+      color: #fff;
+      /* text-align:center; */
+  }
+  
+  .footer h4{
+    color: #c3c9af;
+    font-size: 18px;
+  }
+  
+  .con-mail{
+    font-size: 3rem;
+    background: linear-gradient(to right, rgba(255,255,255,.9), rgba(255,255,255,0.3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .foot-bottom{
+    position: absolute;
+    bottom: 1rem;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .foot {
+      height:170vh;
+    }
+  }
+  /* end of foot block */

@@ -1,0 +1,60 @@
+ /* full oxygen protection block */ 
+
+ .process-formula ul {
+  list-style: none;
+}
+
+.process-formula ul li::before {
+  content: "\2022";
+  color:#5f8a69;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  font-size: 1.5em;
+}
+  .point {
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    border: 2px #5e7d65 solid;
+    border-radius: 50%;
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+
+.process{
+    margin-top: 80px; 
+    margin-bottom:10vh;
+}
+
+.process-formula{
+    margin-top: 20vh;
+    margin-bottom:30vh;
+}
+  
+.process-title{
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+.process-title h5{
+margin-top: .2rem;}
+.process-h{
+    
+    color:#5e7d65;
+}
+
+.process-formula li{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 500px) {
+  .process-formula li{
+    font-size:5vw;
+  }
+
+  
+}
+
+/* end full oxygen protection block */
